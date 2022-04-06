@@ -1,0 +1,32 @@
+.mycards {
+    padding: 10px 20px 20px 10px;
+                height: 1000px;
+                width:80vw;
+                display: grid;
+            grid-template-columns: auto auto auto;
+           background-color: white;
+                overflow: hidden;
+                cursor: pointer;
+                text-align: center;
+                margin: 30px auto;
+                justify-content: space-around;
+                border: white 10px solid;
+     border-radius: 10px;
+            }
+            .mycard{
+             
+                border: black 0.5px solid;
+                border-radius: 20px;
+                margin: 10px 20px 30px;
+                overflow: hidden;
+            }
+    
+            .mycard:hover{
+                box-shadow: 5px 5px 5px darkgrey, -5px -5px 5px darkgrey;
+            }
+    
+            .mycardhead
+            {
+                background-color: white;
+                height: 100px;
+            }

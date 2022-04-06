@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Shizuru&family=Source+Sans+3:wght@200&display=swap');
+.flex-all-center
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+}
+
+button:hover{
+    width: 150px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: green;
+  border-radius: 20px;
+}
+.text-center
+{
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
